@@ -26,7 +26,7 @@ else
 
   let NAA=$NATOM+2
   if grep -A $NAA 'Begin final coordinates' $1 > tmp2; then
-   grep -A 3 'CELL_PARAMETERS' opt.in > tmp1
+   grep -A 3 'CELL_PARAMETERS' *.in > tmp1
     echo 'CRYSTAL' > out.xsf
     echo 'PRIMVEC' >> out.xsf
     tail -3 tmp1 >> out.xsf
