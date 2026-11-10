@@ -1,8 +1,8 @@
-# calculation_scripts
+# useful scripts
 
 ### orca scripts (Multiwfn needed):
 ### o-MO-multiwfn.sh (export HOMO and LUMO cube)
-### o-dos-multiwfn.sh (export dos data)
+### o-dos-multiwfn.sh (export DOS data)
 ### o-spectra-multiwfn.sh (TDDFT calculation, export spectra data)
 
 -------------------------------------------------
